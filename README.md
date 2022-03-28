@@ -214,7 +214,28 @@ PyDrive2
 h5py
 inputimeout
 
+Contribute
+The Ersilia Model Hub is developed and maintained by a small team of Ersilia employees and volunteers, and any contribution is highly valued! There are several ways in which you can contribute to the project:
 
+If you are a developer, check the issues and help us to improve the tool
+If you have developed a model and would like to include it in the Hub to increase its visibility and usability, please contact us or open an issue. We are currently working on an automated contribution tool to facilitate the process.
+If you are a scientist with a cool dataset, also contact us or open an issue as we might be interested in developing a model based on the data!
+If there is a third-party model you have identified and would like to see it in the Hub, open an issue with the relevant information and we will get back to you as soon as possible.
+The Ersilia Open Source Initiative adheres to the Contributor Covenant guidelines.
+
+Roadmap
+We are working to grow the Hub organically and responding to our users needs. Here a detail of the next features to come, stay tuned!
+
+Deployment for Windows System (expected: February 2022)
+Automated third-party model contributions (expected: March 2022)
+Possibility to run lite models online (expected: May 2022)
+License and citation
+This repository is open-sourced under the MIT License. Please cite us if you use it.
+
+About us
+The Ersilia Open Source Initiative is a Non Profit Organization incorporated with the Charity Commission for England and Wales (number 1192266). Our mission is to reduce the imbalance in biomedical research productivity between countries by supporting research in underfunded settings.
+
+You can support us via Open Collective.
 
 
 
