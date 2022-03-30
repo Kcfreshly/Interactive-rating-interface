@@ -4,8 +4,6 @@
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/uk/fundraiser/charity/4145012) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-
-
 [![documentation](https://img.shields.io/badge/-Documentation-purple?logo=read-the-docs&logoColor=white)](https://ersilia.gitbook.io/ersilia-book/) [![PyPI version fury.io](https://badge.fury.io/py/ersilia.svg)](https://pypi.python.org/pypi/ersilia/) [![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-370/) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg?logo=Python&logoColor=white)](https://github.com/psf/black) [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/ersilia-os/ersilia)
 
 </div>
@@ -15,13 +13,15 @@
 ### Table of Contents:
 1. [Project Description](https://github.com/ersilia-os/ersilia#project-description)
 2. [Features](https://github.com/ersilia-os/ersilia#features)
-3. [Getting started](https://github.com/ersilia-os/ersilia#getting-started)
-4. [Quick Start](https://github.com/ersilia-os/ersilia#quick-start)
-5. [Usage](https://github.com/ersilia-os/ersilia#usage)
-6. [Contribute](https://github.com/ersilia-os/ersilia#contribute)
-7. [Roadmap](https://github.com/ersilia-os/ersilia#roadmap)
-8. [License and citation](https://github.com/ersilia-os/ersilia#license-and-citation)
-9. [About us](https://github.com/ersilia-os/ersilia#about-us) 
+3. [Technology](https://github.com/ersilia-os/ersilia#technology)
+4. [Getting started](https://github.com/ersilia-os/ersilia#getting-started)
+5. [Quick Start](https://github.com/ersilia-os/ersilia#quick-start)
+6. [Usage](https://github.com/ersilia-os/ersilia#usage)
+7. [How To Use Ersilia App](https://github.com/ersilia-os/ersilia#how-to-use-ersilia-app)
+8. [Contribute](https://github.com/ersilia-os/ersilia#contribute)
+9. [Roadmap](https://github.com/ersilia-os/ersilia#roadmap)
+10. [License and citation](https://github.com/ersilia-os/ersilia#license-and-citation)
+11. [About us](https://github.com/ersilia-os/ersilia#about-us) 
 
 # Project Description
 
@@ -35,14 +35,29 @@ The models embedded in the hub include both models published in the literature (
 * Read more about the project better at the [Ersilia Book](https://ersilia.gitbook.io/ersilia-book/)
 * Available models can be checked at [Ersilia Model Hub](https://airtable.com/shr9sYjL70nnHOUrP/tblZGe2a2XeBxrEHP)
 
+## Ersilia Overview
+![Screenshot (33)](https://user-images.githubusercontent.com/95097508/160673917-7942a3e8-0b74-4577-b481-ca84a2b51572.png)
+
+
+#### Ersilia is faster in drug discovery compared to coventional methods
+
+![Screenshot (26)](https://user-images.githubusercontent.com/95097508/160673091-3e4e0102-9c71-4f4e-90f0-76c09ee9e523.png)
+
+#### Ersilia uses the 7 steps approach in producing a model. Before Ersilia, the existing AI model stops at external validation (level 6) which made it unusable. With Ersilia scientist with no coding experience can evaluate if their molecule is active with its simple user interface.
+ 
+
 # Features
 
 | Feature | Description |
 | --- | --- |
 | Data driven | Ersilia technology achieves state-of-the-art performance thanks to the integration of chemical, genomic and biomedical text data. Our AI tools are trained on millions of data points collected from the scientific literature and are available at no cost. |
 | Bioactivity signatures | Our tools are designed to facilitate the use of AI/ML tools. Scientists can browse a collection of models, choose the ones relevant to their research interests and run predictions without writing a single line of code. |
-| User friendly | Our tools are designed to facilitate the use of AI/ML tools. Scientists can browse a collection of models, choose the ones relevant to their research interests and run predictions without writing a single line of code. |
+| User friendly platform | Our tools are designed to facilitate the use of AI/ML tools. Scientists can browse a collection of models, choose the ones relevant to their research interests and run predictions without writing a single line of code. |
 | Open source | All our assets are released under a permissive open source license. This means the scientific community can review, contribute and improve our code, resulting in tools validated more extensively than in the traditional peer-review system. |
+
+# Technology
+The Ersilia Hub Model uses the Chemical Checker Ersilia's backbone technology developed in patrick aloy lab, IRB Barcelonia.
+The Chemical Checker encodes chemical information and biological information of the model, it encodes chemical and biological information of this model molecules and represent them in numerical vector so that a computer can analyse.
 
 # Getting Started
 
@@ -203,7 +218,16 @@ If you are sure you don't want to use a model anymore, you may want to remove it
 1 #delete model
 2 ersilia delete chemprop-antibiotic
 ```
+# How To Use Ersilia App
+**The Ersilia app has one of the best user friendly environment for its users, scientist need no coding experience to find models that fit their works.
+User can easily browse through the available models and pick their choice.**
+![Screenshot (35)](https://user-images.githubusercontent.com/95097508/160711451-498e3ae4-f526-42f3-a526-7e8802984a75.png)
 
+
+### Input the intended molecules. See image below 
+![Screenshot (31)](https://user-images.githubusercontent.com/95097508/160709374-5c677aed-c7ba-499f-b771-352b80e0e1a5.png)
+
+**If it is an active molecule, it will display active, else it will display inactive.**
 # Contribute
 
 The Ersilia Model Hub is developed and maintained by a small team of Ersilia employees and volunteers, and any contribution is highly valued! There are several ways in which you can contribute to the project:
@@ -215,7 +239,8 @@ The Ersilia Model Hub is developed and maintained by a small team of Ersilia emp
 The Ersilia Open Source Initiative adheres to the [Contributor Covenant](https://ersilia.gitbook.io/ersilia-wiki/code-of-conduct) guidelines.
 
 # Roadmap
-We are working to grow the Hub organically and responding to our users needs. Here a detail of the next features to come, stay tuned!
+We are working to grow the Hub organically and responding to our users needs. We are presently developing more than 100 models to be added in our libraries.
+Here a detail of the next features to come, stay tuned!
 
 1. Deployment for Windows System (expected: February 2022)
 2. Automated third-party model contributions (expected: March 2022)
